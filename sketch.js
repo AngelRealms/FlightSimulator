@@ -312,7 +312,7 @@ let loader = new Promise((res,rej)=>{
   
 loader.then((msg)=>{
   console.log(msg);
-  loaded = true;
+  animate();
 });
 
 function animate(time){
@@ -321,8 +321,6 @@ function animate(time){
   engine.update(time);
   engine.render();
 }
-
-animate();
 
 
 /*function draw(){
