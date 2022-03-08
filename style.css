@@ -1,0 +1,42 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+.hud{
+  position: absolute;
+  color: limegreen;
+  text-shadow: 0 0 3px black ;
+  text-align: center;
+  z-index: 100;
+  display:block;
+}
+
+#speed{
+  top:10px;
+  left:10px;
+}
+
+#lift{
+  top:30px;
+  left:10px;
+}
+#ai_position{
+  top:50px;
+  left:10px;
+}
+#ai_rotation{
+  top:70px;
+  left:10px;
+}
+#ai_speed{
+  top:90px;
+  left:10px;
+}
+#ai_aggro{
+  top:110px;
+  left:10px;
+}
